@@ -2,12 +2,12 @@ package br.com.produto.main;
 
 import br.com.produto.dao.ProdutoDAO;
 import br.com.produto.model.Produto;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.awt.Color;
-import java.awt.Cursor;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
+
+import java.util.logging.*;
+
+import java.awt.*;
+
+import javax.swing.*;
 
 public class CrudUI extends javax.swing.JFrame {
 

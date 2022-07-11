@@ -3,15 +3,13 @@ package backup;
 import br.com.produto.factory.ConnectionFactory;
 import br.com.produto.main.CrudUI;
 import br.com.produto.model.Produto;
-import java.sql.Connection;
+
+import java.sql.*;
 import com.mysql.jdbc.PreparedStatement;
-import java.util.ArrayList;
-import java.util.List;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
+import java.util.*;
+import java.util.logging.*;
+
 import javax.swing.table.DefaultTableModel;
 
 public class ProdutoDAObackup {

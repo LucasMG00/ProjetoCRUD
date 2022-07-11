@@ -1,7 +1,7 @@
 package br.com.produto.factory;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
+import java.sql.*;
+
 import javax.swing.JOptionPane;
 
 public class ConnectionFactory {

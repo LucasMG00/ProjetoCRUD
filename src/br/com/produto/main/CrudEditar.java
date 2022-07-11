@@ -2,12 +2,12 @@ package br.com.produto.main;
 
 import br.com.produto.dao.ProdutoDAO;
 import br.com.produto.model.Produto;
-import java.awt.Color;
-import java.awt.Cursor;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
+
+import java.awt.*;
+
+import java.util.logging.*;
+
+import javax.swing.*;
 
 public class CrudEditar extends javax.swing.JFrame {
 
